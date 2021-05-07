@@ -1,0 +1,16 @@
+{
+  "name": "actionDemo",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "author": "zorig <zorig.ganbold@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start":"ts-node src/app.ts",
+    "build":"tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^15.0.2",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  }
+}

@@ -1,13 +1,9 @@
 name: Build
 
-on:
-  push:
-    branches: [master]
-  pull_request:
-    branches: [master]
+on: [push]
 
 jobs:
-  runJob:
+  bbuild:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
